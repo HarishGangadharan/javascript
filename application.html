@@ -1,0 +1,186 @@
+<!DOCTYPE html>  
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="application.css"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="total-content">
+            <div class="top-bar">
+                <p class="top-bar-label">
+                    To-Do
+                </p>
+                <div class="search-bar" title="Search">
+                    <button type="submit" class="submit-button">
+                    <i class="fa fa-search"></i>
+                    </button>
+                    <input class = "search-task" type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="middle-content">
+                <div class="side-nav-bar">
+                    <nav class="topnav box-shadow">
+                        <ul  class="icons">
+                            <li>
+                                <i class="fa fa-bars opacity "></i>
+                            </li>
+                            <li>
+                                <a>
+                                    <img src="sun" class="opacity icons-size">
+                                    <p class="content-data">My Day </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img src="star" class="opacity icons-size">
+                                    <p  class="content-data">Important</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <i class="fa fa-calendar icons-size"></i>
+                                    <p class="label-planned content-data">Planned </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img src="house"class="opacity icons-size">
+                                    <p  class="content-data">Tasks </p>
+                                </a>
+                            </li>
+                            <li class="list-icon display-none">
+                                <a>
+                                    <i class=" fa fa-list-ul icon-my-list icons-size"></i>
+                                    <p class="label-my-list content-data">My List </p>
+                                </a>
+                            </li>
+                            <ul class="newly-added-list">
+                            </ul>
+                            <li >
+                                <a class="new-list">
+                                    <img src="plus"class="opacity icon-my-list icons-size">
+                                    <p class="label-my-list align content-data" >New List </p>
+                                </a>
+                                <div class="list-name display-none">
+                                    <input type = "text" class="add-list-name" placeholder="Add a list name" >
+                                    <button class="add-name-button  display-none">Add Name</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-content">
+                    <div class="my-list-elements">
+                        <h2 class="my-list-label">My List           
+                            <a class="more-icon">
+                            <i class="fa fa-ellipsis-h"></i>
+                            </a>   
+                        </h2>
+                        <a class="sort-icon">
+                            <i class="fa fa-trash color  display-none"></i>
+                            <i class="fa fa-exchange rotate"></i>
+                            <h4>Sort</h4>
+                        </a>
+                    </div>
+                    <div class="task-content make-content-none "  >
+                        <i class="fa fa-circle-o color"></i>
+                        <p class="message">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <i class="fa fa-star-o starred"></i>
+                    </div>
+                    <div class="new-content">
+                    </div>
+                    <div class="add-task">
+                        <a>
+                            <img src="plus"class="opacity " title="Add a task">
+                            <p >Add a task </p>
+                        </a>
+                    </div>
+                    <div class="task-content display-none">
+                        <a>
+                        <i class="fa fa-circle-o color"></i>
+                        <input type="text" placeholder="Add a task" class="input-type" autofocus >
+                        <button class="add-button starred change-color">ADD</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-nav-bar">
+                    <div class="right-content-1">
+                        <div class="select-icon">
+                            <i class="fa fa-circle-o color opacity"></i> 
+                        </div>
+                        <div class="content">
+                            <h4 >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+                        </div>
+                        <div class="important">
+                            <i class="fa fa-star-o starred opacity"></i>
+                            <i class="far fa-trash-alt"></i>
+                        </div>
+                    </div>
+                    <div class="my-day-content">
+                        <div class="icon">
+                            <img src="sun" class="adjust-margin">
+                        </div>
+                        <div class="day-content">
+                            <h4>Add to My Day </h4>
+                        </div>
+                    </div>
+                    <div class="my-day-content adjust-height">
+                        <div class="first-content">
+                            <div class="icon">
+                                <img src="alar.png" class="adjust-margin">
+                            </div>
+                            <div class="remind-content">
+                                <h4 class="remind-me-value">Remind me </h4>
+                            </div>
+                            <div class="date">
+                                <input type= "date" class="date-picker" id="datePickerId" >
+                            </div>
+                        </div>
+                        <div class="first-content">
+                            <div class="icon">
+                                <i class="fa fa-calendar adjust-margin"></i>
+                            </div>
+                            <div class="remind-content due-date">
+                                <h4 class="due-date-value">Add due date</h4>
+                            </div>
+                            <div class="date">
+                                <input type= "date" class="date-picker display-none due-date-picker" id="duedatePickerId" >
+                            </div>
+                        </div>
+                        <div class="first-content">
+                            <div class="icon">
+                                <img src="calendar.png" class="adjust-margin">
+                            </div>
+                            <div class="remind-content">
+                                <h4 class="align-top">Repeat</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-day-content textarea-height">
+                        <textarea class="textarea-content" rows="4" cols="50" placeholder="Add a note"></textarea>
+                    </div>
+                    <div class="footer-content">
+                        <div class="next-icon">
+                            <a>
+                            <i class="fa fa-arrow-right adjust-left" title="Hide details view"></i>
+                            </a>
+                        </div>
+                        <div class="created-today">
+                            <p class="adjust-font-size">Created Today</p>
+                        </div>
+                        <div class="delete-icon" title="delete task">
+                            <a>   
+                            <i class="fa fa-trash color-change"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+        </div>
+        </div>
+    </body>
+    <script src="application.js"></script>
+</html>

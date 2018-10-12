@@ -1,0 +1,420 @@
+body {
+
+	.change-width {
+		width: 4%;
+	}
+	margin:0px;
+    .float-right{
+        float: right;
+    }
+	.total-content {
+		.display-none {
+			display: none;
+		}
+		.top-bar {
+			background-color: #1879D2;
+			width: 100%;
+			height: 7.5vh;
+			.top-bar-label {
+				display: inline;
+				margin-left: 10px;
+				font-family: halyard-display, sans-serif;
+				font-style: normal;
+				font-weight: bold;
+				color: white;
+			}
+			.search-bar:hover {
+				background-color: white;
+			}
+			.search-bar {
+				cursor: pointer;
+				display: inline-block;
+				margin-left: 30%;
+				height: 4vh;
+				background-color: #b8d1f4;
+				margin-top: 9px;
+				padding-bottom: 8px;
+				width: 30%;
+				border-radius: 4px;
+				button {
+					background-color: transparent;
+					color: #5778b8;
+					display: inline-block;
+					border: 0px;
+					margin-top: 4px;
+					font-size: 20px;
+					padding-left: 13px;
+				}
+				i {
+					transform: scaleX(-1);
+				}
+				input {
+					background-color: transparent;
+					display: inline-block;
+					border: 0px;
+					outline: none;
+					padding-left: 15px;
+				}
+				 ::placeholder {
+					color: #5a88e2;
+					font-family: brandon-grotesque, sans-serif;
+					font-style: normal;
+					font-weight: 300;
+					margin-left: 10px;
+					font-size: 16px;
+				}
+			}
+		}
+		.middle-content {
+			display: inline-flex;
+			width: 100%;
+			.side-nav-bar {
+				display: inline-block;
+				background-color: #F4f4f4;
+				width: 21%;
+				height: 89.5vh;
+				.topnav {
+					background-color: #ffffff;
+					display: inline;
+					.icons {
+						.list-name {
+							.add-name-button {
+								color: gray;
+								font-size: 15px;
+								border: none;
+								background-color: transparent;
+							}
+							.add-list-name {
+								height: 6vh;
+								border: none;
+								background: transparent;
+								outline: none;
+								width: 7vw;
+							}
+							 ::placeholder {
+								font-size: 15px;
+								margin-left: 15px;
+							}
+						}
+						.opacity {
+							opacity: 0.5;
+						}
+						a {
+							text-align: center;
+							color: #848888;
+							padding: 0px 0px;
+						}
+						.label-planned {
+							margin-left: 11px;
+						}
+						.label-my-list {
+							color: #6C70A9;
+							font-weight: 600;
+							margin-left: 4%;
+						}
+						.icon-my-list {
+							color: #6C70A9;
+						}
+						.align {
+							margin-left: 4%;
+						}
+						.icons-size {
+							width: 18px;
+							height: 18px;
+						}
+						.list-icon {
+							margin-top: 5%;
+						}
+						.m-l {
+							margin-left: 73%;
+						}
+					}
+					ul {
+						padding-left: 0px;
+						margin-top: 20px;
+						margin-bottom: 0px;
+					}
+					li {
+						list-style-type: none;
+						cursor: pointer;
+						padding: 12px 12px;
+					}
+					a {
+						color: white;
+						padding: 9px 9px;
+						text-decoration: none;
+						font-size: 17px;
+					}
+					li:hover {
+						background-color: #ececec;
+					}
+				}
+			}
+			.main-content {
+				width: 79%;
+				display: inline-block;
+				height: 89.5vh;
+				background-color: white;
+				.make-content-none {
+					display: none;
+				}
+				.my-list-elements {
+					display: inline-block;
+					width: 100%;
+					.more-icon {
+						font-size: 15px;
+						margin-left: 8%;
+					}
+					.sort-icon {
+                        float: right;
+                        
+						margin-right: 3%;
+						.color {
+							color: #5a88e2;
+						}
+						.rotate {
+							transform: rotate(90deg);
+							color: #5a88e2;
+						}
+						h4 {
+							display: inline-block;
+							font-family: halyard-display, sans-serif;
+							font-style: normal;
+							font-weight: 600;
+							color: #5a88e2;
+						}
+					}
+					h2 {
+						width: 15%;
+						font-family: halyard-display, sans-serif;
+						font-style: normal;
+						font-weight: 600;
+						margin-left: 3%;
+						color: #5a88e2;
+						display: inline-block;
+					}
+				}
+				.task-content {
+					cursor: pointer;
+					margin-left: 3%;
+					border-bottom: 1px solid #e6e3e3;
+					padding: 20px 10px;
+					width: 94%;
+					input {
+						width: 50%;
+						outline: none;
+						border: none;
+						margin-left: 3%;
+					}
+					 ::placeholder {
+						font-size: 17px;
+					}
+					.color {
+						color: #87aefb;
+						font-size: 24px;
+					}
+					button {
+						border: none;
+						outline: none;
+						background-color: transparent;
+						cursor: pointer;
+					}
+					.starred {
+						float: right;
+						margin-right: 3%;
+						color: gray;
+					}
+					.change-color {
+						color: #87aefb;
+					}
+				}
+				.add-task {
+					display: inline-block;
+					margin-left: 3%;
+					width: 94%;
+					border-bottom: 1px solid #e6e3e3;
+					padding: 20px 10px;
+					cursor: pointer;
+					P {
+						color: #7795d1;
+					}
+				}
+				.line {
+					width: 94%;
+					background-color: #eaeaea;
+					height: 2px;
+					margin-left: 3%;
+					margin-top: 7%;
+				}
+				.first-line-m-t {
+					margin-top: 1%;
+				}
+			}
+			.right-nav-bar {
+				height: auto;
+				display: none;
+				width: 25%;
+				background-color: #F4f4f4;
+				.footer-content {
+					border-top: 2px solid #e6e6e6;
+					height: 6vh;
+					margin-top: 19vh;
+					.delete-icon {
+						display: inline-block;
+						.color-change {
+							color: #7b7676;
+							font-size: 21px;
+						}
+					}
+					.created-today {
+						display: inline-block;
+						width: 51%;
+						margin-left: 19%;
+						.adjust-font-size {
+							font-size: 15px;
+							color: gray;
+						}
+					}
+					.next-icon {
+						width: 15%;
+						display: inline-block;
+						.adjust-left {
+							cursor: pointer;
+							margin-top: 30%;
+							margin-left: 30%;
+							color: #7b7676;
+						}
+					}
+				}
+				.my-day-content {
+					height: 10vh;
+					width: 94%;
+					display: inline-flex;
+					margin-top: 3%;
+					margin-left: 3%;
+					background-color: white;
+					.first-content {
+						display: inline-flex;
+						height: 7vh;
+						width: 100%;
+						padding-bottom: 5px;
+						border-bottom-style: solid;
+						border-bottom-width: thin;
+						border-bottom-color: #e2e2e2;
+						border-left: 84px;
+						.date {
+							.date-picker {
+								display: none;
+								margin-top: 19%;
+								margin-left: 25%;
+								border: none;
+								color: gray;
+								outline: none;
+							}
+						}
+						.remind-content {
+							.align-top {
+								margin-top: 48%;
+							}
+							h4 {
+								color: gray;
+								font-family: brandon-grotesque, sans-serif;
+								font-style: normal;
+								font-weight: 300;
+								font-size: 15px;
+								margin-top: 32%;
+							}
+						}
+					}
+					.icon {
+						margin-top: 2%;
+						width: 15%;
+						.adjust-margin {
+							opacity: 0.5;
+							width: 16px;
+							height: 16px;
+							margin-left: 35%;
+							margin-top: 35%;
+						}
+					}
+					textarea {
+						padding-top: 24px;
+						padding-left: 23px;
+						color: gray;
+						resize: none;
+						outline: none;
+						border: none;
+					}
+					 ::placeholder {
+						color: gray;
+						font-family: brandon-grotesque, sans-serif;
+						font-style: normal;
+						font-weight: 300;
+						padding-top: 25px;
+						padding-left: 20px;
+						font-size: 15px;
+					}
+					.day-content {
+						margin-top: 2%;
+						width: 85%;
+						h4 {
+							color: gray;
+							font-family: brandon-grotesque, sans-serif;
+							font-style: normal;
+							font-weight: 300;
+						}
+					}
+				}
+				.adjust-height {
+					display: block;
+					height: 23vh;
+				}
+				.textarea-height {
+					height: 13vh;
+				}
+				.right-content-1 {
+					display: inline-flex;
+					margin-left: 3%;
+					width: 94%;
+					margin-top: 3%;
+					height: 15vh;
+					background-color: white;
+					.important {
+						width: 15%;
+						.starred {
+							margin-left: 70%;
+							color: gray;
+							margin-top: 35%;
+						}
+					}
+					.select-icon {
+						width: 15%;
+						.color {
+							color: #87aefb;
+							font-size: 24px;
+							margin-left: 35%;
+							margin-top: 35%;
+						}
+					}
+					.content {
+						margin-top: 5%;
+						width: 65%;
+						h4 {
+							font-family: brandon-grotesque, sans-serif;
+							font-style: normal;
+							font-weight: 300;
+						}
+					}
+				}
+			}
+		}
+	}
+	p {
+		color: rgb(66, 59, 59);
+		display: inline;
+		margin-left: 3%;
+		font-family: halyard-display, sans-serif;
+		font-style: normal;
+		font-weight: 200;
+	}
+}
